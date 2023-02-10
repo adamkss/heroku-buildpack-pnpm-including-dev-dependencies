@@ -6,7 +6,7 @@ It supports pnpm in addition to yarn/npm. As long as the root of your project co
 
 ## Documentation
 
-This will run a regular `pnpm install` in the Heroku environment. It will NOT install dev depdencies.
+This will run a regular `pnpm install --prod false` in the Heroku environment.
 
 The pnpm store will automatically be cached, you do not need to specify additional cache directories manually.
 
